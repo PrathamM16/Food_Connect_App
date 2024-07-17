@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".RegistrationActivity">
+
+    <!-- Background Image -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/reg1"
+        android:scaleType="centerCrop" />
+
+    <!-- Name EditText -->
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:textColorHint="@android:color/white"
+        android:textColor="@android:color/holo_blue_light" />
+
+    <!-- Location EditText -->
+    <EditText
+        android:id="@+id/editTextLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextName"
+        android:layout_marginTop="16dp"
+        android:hint="Location"
+        android:textColorHint="@android:color/white"
+        android:textColor="@android:color/holo_green_light" />
+
+    <!-- Contact Info EditText -->
+    <EditText
+        android:id="@+id/editTextContactInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextLocation"
+        android:layout_marginTop="16dp"
+        android:hint="Contact Info"
+        android:textColorHint="@android:color/white"
+        android:textColor="@android:color/holo_orange_light" />
+
+    <!-- Register Button -->
+    <Button
+        android:id="@+id/buttonRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextContactInfo"
+        android:layout_marginTop="24dp"
+        android:text="Register" />
+
+</RelativeLayout>

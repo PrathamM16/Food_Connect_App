@@ -1,0 +1,14 @@
+<!-- activity_community_kitchen_list.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- RecyclerView to display the list of community kitchens -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewCommunityKitchens"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp"
+        android:clipToPadding="false" />
+
+</RelativeLayout>
